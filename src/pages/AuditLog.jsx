@@ -67,7 +67,7 @@ export default function AuditLog() {
       </div>
 
       {loading && items.length === 0 ? (
-        <div className="neu-card" style={{ padding: 30, textAlign: 'center' }} className="muted">Loading…</div>
+        <div className="neu-card muted" style={{ padding: 30, textAlign: 'center' }}>Loading…</div>
       ) : items.length === 0 ? (
         <div className="neu-card" style={{ padding: 30, textAlign: 'center' }}>
           <ScrollText size={30} style={{ color: '#97A0B5', marginBottom: 8 }} />
